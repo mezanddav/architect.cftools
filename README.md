@@ -75,11 +75,11 @@ Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 
 `cd /opt/cftools/architect/agent/`
 
-## PORT Config\
+## PORT Config
 `sudo ufw allow 8090/tcp`\
 `sudo ufw allow 666/tcp`
 
-#### Whitelist FQDNs (Domain Names)\
+#### Whitelist FQDNs (Domain Names)
 `sudo apt install iptables-persistent`\
 
 `sudo iptables -A OUTPUT -p tcp -d cc-global.gameserver.cloud --dport 666 -j ACCEPT`
