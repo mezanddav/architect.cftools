@@ -23,7 +23,7 @@ Install basic tools that might be required during the installation:\
 `sudo apt install software-properties-common -y`\
 `sudo apt install mc -y`
 
-Install GO
+Install GO\
 `sudo apt install golang -y`\
 `export PATH=$PATH:$(go env GOPATH)/bin`\
 `echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bashrc`\
