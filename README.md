@@ -13,18 +13,15 @@ but there are plenty of great tutorials available online
 to guide you through those steps.
 
 
-Your first command is to update Debian to latest version:
-
+Your first command is to update Debian to latest version:\
 `sudo apt update && sudo apt upgrade -y`
 
 
-Install basic tools that might be required during the installation:
-
+Install basic tools that might be required during the installation:\
 `sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`
 
 
 Ensure the universe, multiverse, and restricted repositories are enabled:
-
-`sudo add-apt-repository contrib`
-`sudo add-apt-repository non-free`
+`sudo add-apt-repository contrib`\
+`sudo add-apt-repository non-free`\
 `sudo apt update`
