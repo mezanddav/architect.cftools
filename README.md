@@ -57,7 +57,7 @@ Otherwise you will lock yourself out._
 ## Install Architect agent
 
 Run the download command:\
-`bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`\
+`bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`
 
 You should see this now:
 ```
