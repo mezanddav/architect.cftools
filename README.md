@@ -25,3 +25,14 @@ Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo add-apt-repository contrib`\
 `sudo add-apt-repository non-free`\
 `sudo apt update`
+
+We have to configure UFW:\
+`sudo apt install ufw`\
+`sudo ufw enable`\
+`sudo ufw allow ssh`\
+`sudo ufw allow 80/tcp`\
+`sudo ufw allow 443/tcp`\
+`sudo ufw status`
+
+
+
