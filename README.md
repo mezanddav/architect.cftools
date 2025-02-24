@@ -21,7 +21,6 @@ Your first command is to update Debian to latest version:\
 Install basic tools that might be required during the installation:\
 `sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`\
 `sudo apt install software-properties-common -y`\
-`sudo apt install iptables-persistent netfilter-persistent`\
 `sudo apt install mc -y`
 
 Install GO
