@@ -54,8 +54,9 @@ You should see your open ports.
 ## Install Architect agent
 
 Run the download command:\
-`bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`
+`bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`\
 
+```
 You should see this now:
  * All set up!
  *   /$$$$$$  /$$$$$$$$ /$$$$$$$$                  /$$
@@ -66,6 +67,7 @@ You should see this now:
  * | $$    $$| $$         | $$| $$  | $$| $$  | $$| $$ \____  $$
  * |  $$$$$$/| $$         | $$|  $$$$$$/|  $$$$$$/| $$ /$$$$$$$/
  *  \______/ |__/         |__/ \______/  \______/ |__/|_______/
+```
 
 Step by step install the agent. License is on Discord.
 
