@@ -56,8 +56,8 @@ You should see your open ports.
 Run the download command:\
 `bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`\
 
-```
 You should see this now:
+```
  * All set up!
  *   /$$$$$$  /$$$$$$$$ /$$$$$$$$                  /$$
  *  /$$__  $$| $$_____/|__  $$__/                 | $$
@@ -69,6 +69,25 @@ You should see this now:
  *  \______/ |__/         |__/ \______/  \______/ |__/|_______/
 ```
 
-Step by step install the agent. License is on Discord.
+Step by step install the agent. License is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775).
 
+Take note of the Agent installation path: `/opt/cftools/architect/agent/`
+
+`cd /opt/cftools/architect/agent/`
+
+## PORT Config\
+`sudo ufw allow 8090/tcp`\
+`sudo ufw allow 666/tcp`
+
+#### Whitelist FQDNs (Domain Names)\
+`sudo apt install iptables-persistent`\
+
+`sudo iptables -A OUTPUT -p tcp -d cc-global.gameserver.cloud --dport 666 -j ACCEPT`
+`sudo iptables -A INPUT -p tcp -s cc-global.gameserver.cloud --sport 666 -j ACCEPT`
+
+`sudo netfilter-persistent save`
+
+#### Verify Firewall Rules\
+`sudo ufw status verbose`\
+`sudo iptables -L -v -n`\
 
