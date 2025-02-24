@@ -25,8 +25,8 @@ Install basic tools that might be required during the installation:\
 
 Install GO
 `sudo apt install golang -y`\
-`export PATH=$PATH:$(go env GOPATH)/bin`
-`echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bashrc`
+`export PATH=$PATH:$(go env GOPATH)/bin`\
+`echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> ~/.bashrc`\
 `source ~/.bashrc`
 
 Verify installation:\
