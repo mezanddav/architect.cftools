@@ -13,9 +13,10 @@ but there are plenty of great tutorials available online
 to guide you through those steps.
 
 
+## Debian first steps
+
 Your first command is to update Debian to latest version:\
 `sudo apt update && sudo apt upgrade -y`
-
 
 Install basic tools that might be required during the installation:\
 `sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`\
@@ -33,7 +34,8 @@ We have to install and config UFW:\
 `sudo ufw allow ssh`\
 `sudo ufw allow 80/tcp`\
 `sudo ufw allow 443/tcp`\
-`sudo ufw status`
+`sudo ufw status`\
+You should see your open ports. 
 
-
+## Install Architect agent
 
