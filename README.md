@@ -41,3 +41,5 @@ You should see your open ports.
 
 ## Install Architect agent
 
+`bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`
+
