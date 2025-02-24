@@ -21,7 +21,7 @@ Install basic tools that might be required during the installation:\
 `sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`
 
 
-Ensure the universe, multiverse, and restricted repositories are enabled:
+Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo add-apt-repository contrib`\
 `sudo add-apt-repository non-free`\
 `sudo apt update`
