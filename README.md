@@ -1,6 +1,7 @@
 # CFTools Architect Debian 12 setup guide
 
 [CFTools Cloud Discord](https://discord.com/invite/k7Zdw6cXSH)
+
 [Architect download & License](https://discord.com/channels/373098389174484992/1312066884467953775)
 
 [I used Hetzner for hosting](https://www.hetzner.com/)
