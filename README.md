@@ -47,8 +47,9 @@ We have to install and config UFW:\
 `sudo ufw enable`\ 
 `sudo ufw status`\
 You should see your open ports. 
-_ATTENTION: DO NOT Enable UFW without enabling SSH and port 22.
-Otherwise you will lock yourslef out._
+
+_ATTENTION: DO NOT Enable UFW without enabling SSH and port 22.\
+Otherwise you will lock yourself out._
 
 `reboot` and let's install the agent.
 
