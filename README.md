@@ -37,5 +37,7 @@ We have to install and config UFW:\
 `sudo ufw status`\
 You should see your open ports. 
 
+`reboot` and let's install the agent.
+
 ## Install Architect agent
 
