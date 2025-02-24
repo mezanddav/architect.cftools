@@ -23,6 +23,14 @@ Install basic tools that might be required during the installation:\
 `sudo apt install software-properties-common -y`\
 `sudo apt install mc -y`
 
+`file gum_0.15.2_Linux_x86_64.tar.gz`\
+`tar -xzf gum_0.15.2_Linux_x86_64.tar.gz`\
+`cd gum_0.15.2_Linux_x86_64`\
+`sudo mv gum /usr/local/bin/`\
+Verify installation:\
+`gum --version`\
+Expected output: `gum version v0.15.2 (d1fc051)`
+
 Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo add-apt-repository contrib`\
 `sudo add-apt-repository non-free`\
