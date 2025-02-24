@@ -18,7 +18,8 @@ Your first command is to update Debian to latest version:\
 
 
 Install basic tools that might be required during the installation:\
-`sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`
+`sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`\
+`sudo apt install software-properties-common -y`
 
 
 Ensure the universe, multiverse, and restricted repositories are enabled:\
