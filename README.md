@@ -82,12 +82,12 @@ Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 #### Whitelist FQDNs (Domain Names)
 `sudo apt install iptables-persistent`
 
-`sudo iptables -A OUTPUT -p tcp -d cc-global.gameserver.cloud --dport 666 -j ACCEPT`
+`sudo iptables -A OUTPUT -p tcp -d cc-global.gameserver.cloud --dport 666 -j ACCEPT`\
 `sudo iptables -A INPUT -p tcp -s cc-global.gameserver.cloud --sport 666 -j ACCEPT`
 
 `sudo netfilter-persistent save`
 
 #### Verify Firewall Rules
 `sudo ufw status verbose`\
-`sudo iptables -L -v -n`\
+`sudo iptables -L -v -n`
 
