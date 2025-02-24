@@ -14,5 +14,5 @@ to guide you through those steps.
 
 Your first command is to update Debian to latest version
 
-`apt upgrade`
+`sudo apt update && sudo apt upgrade -y`
 
