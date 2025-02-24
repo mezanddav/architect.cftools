@@ -54,6 +54,11 @@ Otherwise you will lock yourself out._
 `reboot` and let's install the agent.
 
 
+## PORT Config
+`sudo ufw allow in proto tcp to any port 8090`\
+`sudo ufw allow out proto tcp to any port 8090`
+
+
 ## Install Architect agent
 
 Run the download command:\
@@ -78,19 +83,7 @@ Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 
 `cd /opt/cftools/architect/agent/`
 
-## PORT Config
-`sudo ufw allow 8090/tcp`\
-`sudo ufw allow 666/tcp`
+You need your Architect root password and config file.
 
-#### Whitelist FQDNs (Domain Names)
-`sudo apt install iptables-persistent`
-
-`sudo iptables -A OUTPUT -p tcp -d cc-global.gameserver.cloud --dport 666 -j ACCEPT`\
-`sudo iptables -A INPUT -p tcp -s cc-global.gameserver.cloud --sport 666 -j ACCEPT`
-
-`sudo netfilter-persistent save`
-
-#### Verify Firewall Rules
-`sudo ufw status verbose`\
-`sudo iptables -L -v -n`
+`sudo nano `
 
