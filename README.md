@@ -19,15 +19,15 @@ Your first command is to update Debian to latest version:\
 
 Install basic tools that might be required during the installation:\
 `sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`\
-`sudo apt install software-properties-common -y`
-
+`sudo apt install software-properties-common -y`\
+`sudo apt install mc -y`
 
 Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo add-apt-repository contrib`\
 `sudo add-apt-repository non-free`\
 `sudo apt update`
 
-We have to configure UFW:\
+We have to install and config UFW:\
 `sudo apt install ufw`\
 `sudo ufw enable`\
 `sudo ufw allow ssh`\
