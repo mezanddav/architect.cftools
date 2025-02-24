@@ -23,7 +23,7 @@ Install basic tools that might be required during the installation:\
 `sudo apt install software-properties-common -y`\
 `sudo apt install mc -y`
 
-### Improve this step!
+#### Improve this step!
 `curl -LO https://github.com/charmbracelet/gum/releases/latest/download/gum_0.15.2_Linux_x86_64.tar.gz`\
 `file gum_0.15.2_Linux_x86_64.tar.gz`\
 `tar -xzf gum_0.15.2_Linux_x86_64.tar.gz`\
@@ -33,7 +33,7 @@ Verify installation:\
 `gum --version`\
 Expected output: `gum version v0.15.2 (d1fc051)`
 
-### Do we need this? Don't think so.
+#### Do we need this? Don't think so.
 Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo add-apt-repository contrib`\
 `sudo add-apt-repository non-free`\
