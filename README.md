@@ -13,5 +13,6 @@ but there are plenty of great tutorials available online
 to guide you through those steps.
 
 Your first command is to update Debian to latest version
+
 `apt upgrade`
 
