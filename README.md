@@ -87,17 +87,17 @@ You need your Architect root password and config file:\
 `sudo nano /opt/cftools/architect/agent/config.toml`
 
 
-# Game Port\
+# Game Port
 `sudo ufw allow out 2403/tcp comment "Game Port TCP Outbound"`\
 `sudo ufw allow out 2403/udp comment "Game Port UDP Outbound"`
 
-# Query Port\
+# Query Port
 `sudo ufw allow out 2406/tcp comment "Query Port TCP Outbound"`\
 `sudo ufw allow out 2406/udp comment "Query Port UDP Outbound"`
 
-# RCon Port\
+# RCon Port
 `sudo ufw allow out 2409/tcp comment "RCon Port TCP Outbound"`\
 `sudo ufw allow out 2409/udp comment "RCon Port UDP Outbound"`
 
-# Reload UFW\
+# Reload UFW
 `sudo ufw reload`
