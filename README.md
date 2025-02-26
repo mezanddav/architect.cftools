@@ -44,6 +44,9 @@ We have to install and config UFW:\
 `sudo ufw allow ssh`\
 `sudo ufw allow 80/tcp`\
 `sudo ufw allow 443/tcp`\
+`sudo ufw allow in 2302/tcp` OR whatever is your Game Port\
+`sudo ufw allow in 2303/tcp` OR whatever is your Query Port\
+`sudo ufw allow in 2305/tcp` or whatever is your RCon Port\
 `sudo ufw enable`\
 `sudo ufw status`\
 You should see your open ports. 
