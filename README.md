@@ -48,6 +48,8 @@ We have to install and config UFW:\
 `sudo ufw status`\
 You should see your open ports. 
 
+Useful: `sudo ufw reload`
+
 _ATTENTION: DO NOT Enable UFW without enabling SSH and port 22.\
 Otherwise you will lock yourself out._
 
