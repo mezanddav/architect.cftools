@@ -63,7 +63,7 @@ Useful: `sudo ufw reload`
 `reboot` and let's install the agent.
 
 
-## Architect/CF port config
+## Architect port config
 `sudo ufw allow in proto tcp to any port 8090`\
 `sudo ufw allow out proto tcp to any port 8090`
 
