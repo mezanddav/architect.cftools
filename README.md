@@ -24,7 +24,7 @@ Install basic tools that might be required during the installation:\
 `sudo apt install mc -y`
 
 Install GO\
-Go to this page: https://go.dev/dl/\
+[Go to the Go download page](https://go.dev/dl/) \
 Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64\
 `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`\
 ` rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz`\
