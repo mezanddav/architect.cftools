@@ -155,13 +155,13 @@ I suggest you put the server name in the comment to keep things clean:\
 eg.: `sudo ufw allow out 2403/udp comment "KarmaKrew Cherna Game Port UDP Outbound"`
 
 Game port\
-`sudo ufw allow out 2403/udp comment "Game Port UDP Outbound"`
+`sudo ufw allow out 2302/udp comment "Game Port UDP Outbound"`
 
 Query port\
-`sudo ufw allow out 2406/udp comment "Query Port UDP Outbound"`
+`sudo ufw allow out 2303/udp comment "Query Port UDP Outbound"`
 
 RCon port\
-`sudo ufw allow out 2409/udp comment "RCon Port UDP Outbound"`
+`sudo ufw allow out 2305/udp comment "RCon Port UDP Outbound"`
 
 Reload UFW\
 `sudo ufw reload`
