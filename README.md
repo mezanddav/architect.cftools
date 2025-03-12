@@ -46,21 +46,19 @@ Expected output: `gum version v0.15.2 (d1fc051)`
 ## Install UFW
 `sudo apt install ufw`\
 
-Configure UFW\
+_ATTENTION: DO NOT Enable UFW without enabling SSH and port 22.\
+Otherwise, you will lock yourself out._
+
+Basic UFW config\
 `sudo ufw allow ssh`\
 `sudo ufw allow 80/tcp`\
 `sudo ufw allow 443/tcp`\
-`sudo ufw allow in 2302/tcp` OR whatever is your Game Port\
-`sudo ufw allow in 2303/tcp` OR whatever is your Query Port\
-`sudo ufw allow in 2305/tcp` or whatever is your RCon Port\
-`sudo ufw enable`\
-`sudo ufw status`\
-You should see your open ports. 
+
+Enable: `sudo ufw enable`\
+Check UFW status: `sudo ufw status`\
+The output should be a list of ports you just opened. 
 
 Useful: `sudo ufw reload`
-
-_ATTENTION: DO NOT Enable UFW without enabling SSH and port 22.\
-Otherwise, you will lock yourself out._
 
 `reboot` and let's install the agent.
 
@@ -88,7 +86,7 @@ You should see this now:
  *  \______/ |__/         |__/ \______/  \______/ |__/|_______/
 ```
 
-Step by step install the agent. License is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775).
+Step by step install the agent. The license is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775).
 
 Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 
