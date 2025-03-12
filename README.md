@@ -71,7 +71,7 @@ Useful: `sudo ufw reload`
 ## Install Architect agent
 
 Run the download command:\
-[Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775).\
+[Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).\
 (for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`
 
 You should see this now:
@@ -87,7 +87,7 @@ You should see this now:
  *  \______/ |__/         |__/ \______/  \______/ |__/|_______/
 ```
 
-Step by step install the agent. The license is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775).
+Step by step install the agent. The license is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).
 
 Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 
