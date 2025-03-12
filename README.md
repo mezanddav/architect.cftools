@@ -96,7 +96,7 @@ You need your Architect root password and config file:\
 `sudo nano /opt/cftools/architect/agent/config.toml`
 
 
-## ## Dayz port config
+## Dayz port config
 
 ### Game port
 `sudo ufw allow out 2403/tcp comment "Game Port TCP Outbound"`\
