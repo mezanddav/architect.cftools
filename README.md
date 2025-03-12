@@ -123,7 +123,7 @@ Add this line at the end:
 ## Install Architect agent
 
 Run the download command:\
-[Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).\
+[Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).  
 (for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.8/install.sh)`
 
 You should see this now:
@@ -145,8 +145,13 @@ Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 
 `cd /opt/cftools/architect/agent/`
 
-You need your Architect root password and config file:\
+You need your Architect root password:  
 `sudo nano /opt/cftools/architect/agent/config.toml`
+
+and config file:  
+`sudo nano /opt/cftools/architect/agent/root.txt`  
+
+_NOTE: If you install the Architect agent in a different directory, a new root pass will be created for you._
 
 
 ## Dayz port config
@@ -165,3 +170,11 @@ RCon port\
 
 Reload UFW\
 `sudo ufw reload`
+
+
+## Connecting with the Manager
+[Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).  
+1. Install
+2. Register Agent: `root` user and your password from `/opt/cftools/architect/agent/root.txt`
+3. Titles -> Kebab menu -> Download
+4. Deploy Server -> Follow Steps
