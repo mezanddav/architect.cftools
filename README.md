@@ -63,7 +63,7 @@ Useful: `sudo ufw reload`
 `reboot` and let's install the agent.
 
 
-## PORT Config
+## CF Tools port config
 `sudo ufw allow in proto tcp to any port 8090`\
 `sudo ufw allow out proto tcp to any port 8090`
 
@@ -96,17 +96,19 @@ You need your Architect root password and config file:\
 `sudo nano /opt/cftools/architect/agent/config.toml`
 
 
-# Game Port
+## ## Dayz port config
+
+### Game port
 `sudo ufw allow out 2403/tcp comment "Game Port TCP Outbound"`\
 `sudo ufw allow out 2403/udp comment "Game Port UDP Outbound"`
 
-# Query Port
+### Query port
 `sudo ufw allow out 2406/tcp comment "Query Port TCP Outbound"`\
 `sudo ufw allow out 2406/udp comment "Query Port UDP Outbound"`
 
-# RCon Port
+### RCon port
 `sudo ufw allow out 2409/tcp comment "RCon Port TCP Outbound"`\
 `sudo ufw allow out 2409/udp comment "RCon Port UDP Outbound"`
 
-# Reload UFW
+Reload UFW\
 `sudo ufw reload`
