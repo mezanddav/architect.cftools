@@ -68,6 +68,8 @@ Useful: `sudo ufw reload`
 
 ## Architect port config
 `sudo ufw allow in proto tcp to any port 8090`\
+`ufw allow in proto tcp *:8090`
+asdasd.com
 `sudo ufw allow out proto tcp to any port 8090`
 
 
