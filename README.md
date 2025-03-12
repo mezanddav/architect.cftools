@@ -34,8 +34,7 @@ Stable versions -> Grab the link (Right click and Copy link address) for: Archiv
 (for me) `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`  
 (for me) `rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz`  
 `echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc`  
-`mkdir go`  
-`echo 'export GOPATH=/root/go' >> ~/.bashrc`  
+`mkdir go && echo 'export GOPATH=/root/go' >> ~/.bashrc`  
 `source ~/.bashrc`  
 `go version`
 
