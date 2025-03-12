@@ -33,7 +33,9 @@ Ensure the universe, multiverse, and restricted repositories are enabled:\
 Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64\
 (for me) `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`\
 (for me) `rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz`\
-`export PATH=$PATH:/usr/local/go/bin`\
+`export PATH=$PATH:/usr/local/go/bin`
+`echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc`
+`source ~/.bashrc`
 `go version`
 
 ### Install GUM
