@@ -115,11 +115,9 @@ Add this line at the end:
 `*/10 * * * * /usr/local/bin/update_firewall.sh >> /var/log/firewall_update.log 2>&1`
 
 
-## Architect port config
-`sudo ufw allow in proto tcp to any port 8090`\
-`ufw allow in proto tcp *:8090`
-asdasd.com
-`sudo ufw allow out proto tcp to any port 8090`
+## Architect port config  
+`sudo ufw allow in proto tcp to any port 8090`  
+`sudo ufw allow out proto tcp to any port 8090`  
 
 
 ## Install Architect agent
