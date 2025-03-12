@@ -68,8 +68,11 @@ Useful: `sudo ufw reload`
 `reboot` and let's install the agent.
 
 ## TCP/UDP cc-global.gameserver.cloud for port 666  
-Create the script:  
+Ensure dnsutils is installed:  
 `sudo apt install ufw dnsutils -y`
+
+Create a script that:  
+`sudo nano /usr/local/bin/update_firewall.sh`
 
 Add the following:  
 ```
