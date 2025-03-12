@@ -23,6 +23,11 @@ Install basic tools that might be required during the installation:\
 `sudo apt install software-properties-common -y`\
 `sudo apt install mc -y`
 
+Ensure the universe, multiverse, and restricted repositories are enabled:\
+`sudo add-apt-repository contrib`\
+`sudo add-apt-repository non-free`\
+`sudo apt update`
+
 Install GO\
 [Go to the Go download page](https://go.dev/dl/) \
 Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64\
@@ -37,12 +42,6 @@ Install GUM\
 Verify installation:\
 `gum --version`\
 Expected output: `gum version v0.15.2 (d1fc051)`
-
-#### Do we need this? Don't think so.
-Ensure the universe, multiverse, and restricted repositories are enabled:\
-`sudo add-apt-repository contrib`\
-`sudo add-apt-repository non-free`\
-`sudo apt update`
 
 We have to install and config UFW:\
 `sudo apt install ufw`\
