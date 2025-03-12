@@ -44,7 +44,7 @@ Verify installation:\
 Expected output: `gum version v0.15.2 (d1fc051)`
 
 ## Install UFW
-`sudo apt install ufw`\
+`sudo apt install ufw`
 
 _ATTENTION: DO NOT Enable UFW without enabling SSH and port 22.\
 Otherwise, you will lock yourself out._
@@ -52,7 +52,7 @@ Otherwise, you will lock yourself out._
 Basic UFW config\
 `sudo ufw allow ssh`\
 `sudo ufw allow 80/tcp`\
-`sudo ufw allow 443/tcp`\
+`sudo ufw allow 443/tcp`
 
 Enable: `sudo ufw enable`\
 Check UFW status: `sudo ufw status`\
