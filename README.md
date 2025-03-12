@@ -99,16 +99,13 @@ You need your Architect root password and config file:\
 
 ## Dayz port config
 
-### Game port
-`sudo ufw allow out 2403/tcp comment "Game Port TCP Outbound"`\
+Game port\
 `sudo ufw allow out 2403/udp comment "Game Port UDP Outbound"`
 
-### Query port
-`sudo ufw allow out 2406/tcp comment "Query Port TCP Outbound"`\
+Query port\
 `sudo ufw allow out 2406/udp comment "Query Port UDP Outbound"`
 
-### RCon port
-`sudo ufw allow out 2409/tcp comment "RCon Port TCP Outbound"`\
+RCon port\
 `sudo ufw allow out 2409/udp comment "RCon Port UDP Outbound"`
 
 Reload UFW\
