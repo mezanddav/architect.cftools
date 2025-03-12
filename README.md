@@ -66,8 +66,10 @@ Useful: `sudo ufw reload`
 `reboot` and let's install the agent.
 
 ## TCP/UDP cc-global.gameserver.cloud for port 666  
+Create the script:  
 `sudo apt install ufw dnsutils -y`
 
+Add the following:  
 ```
 #!/bin/bash
 
@@ -98,6 +100,14 @@ else
     echo "[$(date)] Firewall rules already set for $DOMAIN ($IP)"
 fi
 ```
+Make the Script Executable  
+`sudo chmod +x /usr/local/bin/update_firewall.sh`  
+
+Edit the crontab:  
+`sudo crontab -e`  
+
+Add this line at the end:  
+`*/10 * * * * /usr/local/bin/update_firewall.sh >> /var/log/firewall_update.log 2>&1`
 
 
 ## Architect port config
