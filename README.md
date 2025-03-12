@@ -28,14 +28,15 @@ Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo add-apt-repository non-free`\
 `sudo apt update`
 
-## Install GO
-[Go to the Go download page](https://go.dev/dl/) \
-Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64\
-(for me) `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`\
-(for me) `rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz`\
-`echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc`\
-`echo 'export GOPATH=/usr/local/go' >> ~/.bashrc`\
-`source ~/.bashrc`\
+## Install GO  
+[Go to the Go download page](https://go.dev/dl/)  
+Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64  
+(for me) `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`  
+(for me) `rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz`  
+`echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc`  
+`mkdir go`  
+`echo 'export GOPATH=/root/go' >> ~/.bashrc`  
+`source ~/.bashrc`  
 `go version`
 
 
