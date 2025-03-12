@@ -28,7 +28,7 @@ Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo add-apt-repository non-free`\
 `sudo apt update`
 
-Install GO\
+## Install GO\
 [Go to the Go download page](https://go.dev/dl/) \
 Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64\
 `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`\
@@ -36,15 +36,17 @@ Stable versions -> Grab the link (Right click and Copy link address) for: Archiv
 `export PATH=$PATH:/usr/local/go/bin`\
 `go version`
 
-Install GUM\
+### Install GUM\
 `go install github.com/charmbracelet/gum@latest`
 
 Verify installation:\
 `gum --version`\
 Expected output: `gum version v0.15.2 (d1fc051)`
 
-We have to install and config UFW:\
+## We have to install and config UFW:\
 `sudo apt install ufw`\
+
+Configure UFW\
 `sudo ufw allow ssh`\
 `sudo ufw allow 80/tcp`\
 `sudo ufw allow 443/tcp`\
