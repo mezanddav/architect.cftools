@@ -15,7 +15,7 @@ to guide you through those steps.
 
 ## Debian first steps
 
-Your first command is to update Debian to latest version:\
+Your first command is to update Debian to the latest version:\
 `sudo apt update && sudo apt upgrade -y`
 
 Install basic tools that might be required during the installation:\
@@ -33,10 +33,11 @@ Ensure the universe, multiverse, and restricted repositories are enabled:\
 Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64\
 (for me) `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`\
 (for me) `rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz`\
-`export PATH=$PATH:/usr/local/go/bin`\
 `echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc`\
+`echo 'export GOPATH=/usr/local/go' >> ~/.bashrc`\
 `source ~/.bashrc`\
 `go version`
+
 
 ### Install GUM
 `go install github.com/charmbracelet/gum@latest`
