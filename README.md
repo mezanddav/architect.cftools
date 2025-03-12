@@ -31,8 +31,8 @@ Ensure the universe, multiverse, and restricted repositories are enabled:\
 ## Install GO
 [Go to the Go download page](https://go.dev/dl/) \
 Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64\
-`wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`\
-` rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz`\
+(for me) `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`\
+`rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.1.linux-amd64.tar.gz`\
 `export PATH=$PATH:/usr/local/go/bin`\
 `go version`
 
@@ -71,7 +71,8 @@ Useful: `sudo ufw reload`
 ## Install Architect agent
 
 Run the download command:\
-`bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`
+[Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775).
+(for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.7/install.sh)`
 
 You should see this now:
 ```
