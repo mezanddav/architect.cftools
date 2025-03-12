@@ -98,6 +98,7 @@ You need your Architect root password and config file:\
 
 
 ## Dayz port config
+Don't forget to open the ports you need. The ports below are the Architect default ports. 
 
 Game port\
 `sudo ufw allow out 2403/udp comment "Game Port UDP Outbound"`
