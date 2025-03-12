@@ -65,6 +65,40 @@ Useful: `sudo ufw reload`
 
 `reboot` and let's install the agent.
 
+## TCP/UDP cc-global.gameserver.cloud for port 666  
+`sudo apt install ufw dnsutils -y`
+
+```
+#!/bin/bash
+
+# Define the domain to resolve
+DOMAIN="cc-global.gameserver.cloud"
+
+# Perform NS lookup and extract the first resolved IP
+IP=$(nslookup $DOMAIN | awk '/^Address: / { print $2 }' | tail -n1)
+
+# Check if the lookup was successful
+if [[ -z "$IP" ]]; then
+    echo "[$(date)] ERROR: Could not resolve $DOMAIN"
+    exit 1
+fi
+
+# Check if UFW already allows this IP
+if ! sudo ufw status | grep -q "$IP"; then
+    # Delete old rules for this domain (optional)
+    sudo ufw delete allow in proto tcp to any port 666
+    sudo ufw delete allow out proto tcp to any port 666
+
+    # Add new rules
+    sudo ufw allow in from "$IP" to any port 666 proto tcp comment "Allow inbound for $DOMAIN"
+    sudo ufw allow out to "$IP" from any port 666 proto tcp comment "Allow outbound for $DOMAIN"
+
+    echo "[$(date)] Updated firewall rules for $DOMAIN ($IP)"
+else
+    echo "[$(date)] Firewall rules already set for $DOMAIN ($IP)"
+fi
+```
+
 
 ## Architect port config
 `sudo ufw allow in proto tcp to any port 8090`\
