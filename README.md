@@ -188,3 +188,5 @@ Reload UFW\
 2. Register Agent: `root` user and your password from `/opt/cftools/architect/agent/root.txt`
 3. Titles -> Kebab menu -> Download
 4. Deploy Server -> Follow Steps
+
+[CFTools Architect Manager video tutorial](https://www.youtube.com/watch?v=7cre0XxOaiM)
