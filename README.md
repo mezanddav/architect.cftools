@@ -151,8 +151,11 @@ You need your Architect root password:
 `sudo nano /opt/cftools/architect/agent/config.toml`
 
 ```
-The default root user password for architect (not the system user) is a randomized uuid4 (122 bit entropy). The password is meant to be changed.
-Dont use weak passwords. All agent credentials are to be treated as confidential API keys. If your use case requires it, you can disable remote root user access and only allow it from localhost eg. 127.0.0.1.
+The default root user password for architect (not the system user) is a
+randomized uuid4 (122 bit entropy). The password is meant to be changed.
+Don't use weak passwords. All agent credentials are to be treated as
+confidential API keys. If your use case requires it, you can disable
+remote root user access and only allow it from localhost eg. 127.0.0.1.
 ```
 
 and config file:  
