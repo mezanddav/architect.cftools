@@ -6,6 +6,8 @@
 
 [I used Hetzner for hosting](https://www.hetzner.com/)
 
+[Architect Docs](https://help.cftools.com/en/architect)
+
 This guide assumes you already have Debian 12 installed
 with SSH keys set up and ready to use. We won’t cover
 the installation of Debian or the setup of SSH keys here,
