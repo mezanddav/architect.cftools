@@ -53,10 +53,10 @@ Stable versions -> Grab the link (Right click and Copy link address) for: Archiv
 
 Verify installation:  
 `reboot`  
-`go version `
-Expected output: `go version go1.24.1 linux/amd64` 
-`gum --version`  
-Expected output: `gum version v0.15.2 (d1fc051)` 
+`go version`  
+Expected output: `go version go1.24.1 linux/amd64`  
+`gum --version`   
+Expected output: `gum version v0.15.2 (d1fc051)`  
 
 _NOTE: If the versions are not coming up, there is a good chance you messed up the paths  
 (or this guide is shit)  
