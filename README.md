@@ -31,6 +31,11 @@ Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo apt update`
 
 ## Install GO  
+_I am using GO to install GUM (Required by the Agent)  
+The issue is that Debian is updating packages
+slowly and has an old GO version.  
+That means we must install it manually._
+
 [Go to the Go download page](https://go.dev/dl/)  
 Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64  
 (for me) `wget https://go.dev/dl/go1.24.1.linux-amd64.tar.gz`  
