@@ -155,7 +155,7 @@ Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 `cd /opt/cftools/architect/agent/`
 
 You need your Architect root password:  
-`sudo nano /opt/cftools/architect/agent/config.toml`
+`sudo nano /opt/cftools/architect/agent/root.txt`  
 
 ```
 The default root user password for architect (not the system user) is a
@@ -166,26 +166,26 @@ remote root user access and only allow it from localhost eg. 127.0.0.1.
 ```
 
 and config file:  
-`sudo nano /opt/cftools/architect/agent/root.txt`  
+`sudo nano /opt/cftools/architect/agent/config.toml`  
 
 _NOTE: If you install the Architect agent in a different directory, a new root pass will be created for you._
 
 
-## Dayz port config
-Don't forget to open the ports you need. The ports below are the Architect default ports.\
-I suggest you put the server name in the comment to keep things clean:\
+## Dayz port config  
+Don't forget to open the ports you need. The ports below are the Architect default ports.  
+I suggest you put the server name in the comment to keep things clean:  
 eg.: `sudo ufw allow out 2403/udp comment "KarmaKrew Cherna Game Port UDP Outbound"`
 
-Game port\
+Game port  
 `sudo ufw allow 2302/udp comment "Game Port UDP Outbound"`
 
-Query port\
+Query port  
 `sudo ufw allow 2303/udp comment "Query Port UDP Outbound"`
 
-RCon port\
+RCon port  
 `sudo ufw allow 2305/udp comment "RCon Port UDP Outbound"`
 
-Reload UFW\
+Reload UFW  
 `sudo ufw reload`
 
 
