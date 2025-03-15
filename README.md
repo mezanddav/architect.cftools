@@ -192,7 +192,7 @@ and config file:
 _NOTE: If you install the Architect agent in a different directory, a new root pass will be created for you._
 
 
-## Dayz port config  
+## DayZ port config  
 Don't forget to open the ports you need. The ports below are the Architect default ports.  
 I suggest you put the server name in the comment to keep things clean:  
 eg.: `sudo ufw allow 2403/udp comment "KarmaKrew Cherna Game Port UDP Outbound"`
