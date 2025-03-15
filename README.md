@@ -8,11 +8,10 @@
 
 [Architect Docs](https://help.cftools.com/en/architect)
 
-This guide assumes you already have Debian 12 installed  
-with SSH keys set up and ready to use. We won’t cover  
-the installation of Debian or the setup of SSH keys here,  
-but there are plenty of great tutorials available online  
-to guide you through those steps.  
+This guide assumes you already have Debian 12 installed with SSH keys 
+set up and ready to use. We won’t cover the installation of Debian or 
+the setup of SSH keys here, but plenty of great tutorials are available
+online to guide you through those steps.  
 
 
 ## Debian first steps
