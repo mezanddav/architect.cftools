@@ -31,9 +31,9 @@ Ensure the universe, multiverse, and restricted repositories are enabled:\
 `sudo apt update`
 
 ## Install GO  
-_Debian’s package repositories often update slowly, meaning the
-available Go version may be outdated. Since the Agent requires GUM,
-which depends on a newer version of Go, it must be installed manually._
+_Debian’s package repositories often update slowly, meaning the  
+available Go version may be outdated. Since the Agent requires GUM,  
+which depends on a newer version of Go, it must be installed manually._  
 
 [Go to the Go download page](https://go.dev/dl/)  
 Stable versions -> Grab the link (Right click and Copy link address) for: Archive	Linux	x86-64  
