@@ -229,4 +229,4 @@ Simple message for example:
   "content": "{{server}} started"
 }
 ```
-[Discord Webhook Resource](https://discord.com/developers/docs/resources/webhook#execute-webhook-jsonform-params)
+[Discord Webhook Resource / JSON Params](https://discord.com/developers/docs/resources/webhook#execute-webhook-jsonform-params)
