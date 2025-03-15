@@ -146,9 +146,9 @@ The system must also support the following essential utilities:
 These utilities are generally available on any non-minimal Linux distribution.
 
 ### Debian Consideration  
-Debian is referenced in this guide due to the availability of official tooling and  
-broader community support for CF Tools. However, the installation process  
-may be adapted for other compatible distributions.  
+Debian is referenced in this guide because CFTools officially supports it.  
+However, the installation process may be adapted for other  
+compatible distributions, provided they meet the necessary requirements.  
 
 ### Running in Docker
 The executable can also be run inside a Docker container for added flexibility.
