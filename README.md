@@ -138,7 +138,7 @@ Add this line at the end:
 
 Run the download command:\
 [Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).  
-(for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.8/install.sh)`
+(for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.12/install.sh)`
 
 You should see this now:
 ```
