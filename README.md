@@ -136,6 +136,25 @@ Add this line at the end:
 
 ## Install Architect agent
 
+This x64 executable is compatible with all x64 Linux distributions that  
+follow the standard Linux folder structure (e.g., existing /opt, /var/log).  
+The system must also support the following essential utilities:  
+`lsb_release`
+`uname`
+`nice`
+`bash` 
+`taskset`  
+These utilities are generally available on any non-minimal Linux distribution.
+
+### Debian Consideration  
+Debian is referenced in this guide due to the availability of official tooling and  
+broader community support for CF Tools. However, the installation process  
+may be adapted for other compatible distributions.  
+
+### Running in Docker
+The executable can also be run inside a Docker container for added flexibility.
+
+
 Run the download command:\
 [Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).  
 (for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.12/install.sh)`
