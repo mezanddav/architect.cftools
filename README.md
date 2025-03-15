@@ -8,11 +8,11 @@
 
 [Architect Docs](https://help.cftools.com/en/architect)
 
-This guide assumes you already have Debian 12 installed
-with SSH keys set up and ready to use. We won’t cover
-the installation of Debian or the setup of SSH keys here,
-but there are plenty of great tutorials available online
-to guide you through those steps.
+This guide assumes you already have Debian 12 installed  
+with SSH keys set up and ready to use. We won’t cover  
+the installation of Debian or the setup of SSH keys here,  
+but there are plenty of great tutorials available online  
+to guide you through those steps.  
 
 
 ## Debian first steps
@@ -180,13 +180,12 @@ Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 You need your Architect root password:  
 `sudo nano /opt/cftools/architect/agent/root.txt`  
 
-```
-The default root user password for architect (not the system user) is a
-randomized uuid4 (122 bit entropy). The password is meant to be changed.
-Don't use weak passwords. All agent credentials are to be treated as
-confidential API keys. If your use case requires it, you can disable
-remote root user access and only allow it from localhost eg. 127.0.0.1.
-```
+_The default root user password for architect (not the system user) is a  
+randomized uuid4 (122 bit entropy). The password is meant to be changed.  
+Don't use weak passwords. All agent credentials are to be treated as  
+confidential API keys. If your use case requires it, you can disable  
+remote root user access and only allow it from localhost eg. 127.0.0.1._
+
 
 and config file:  
 `sudo nano /opt/cftools/architect/agent/config.toml`  
