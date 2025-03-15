@@ -218,3 +218,14 @@ Reload UFW
 4. Deploy Server -> Follow Steps
 
 [CFTools Architect Manager video tutorial](https://www.youtube.com/watch?v=7cre0XxOaiM)
+
+# Webhooks
+WebHooks accept raw body payloads instead of having everything pre-defined and  
+they are not Discord-specific. So you need to formulate the raw payload that  
+Discords accepts. Simple message for example:  
+```
+{
+  "content": "{{server}} started"
+}
+```
+[Discord Webhook Resource](https://discord.com/developers/docs/resources/webhook#execute-webhook-jsonform-params)
