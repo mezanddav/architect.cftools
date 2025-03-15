@@ -221,8 +221,9 @@ Reload UFW
 
 # Webhooks
 WebHooks accept raw body payloads instead of having everything pre-defined and  
-they are not Discord-specific. So you need to formulate the raw payload that  
-Discords accepts. Simple message for example:  
+they are not Discord-specific. So you need to formulate the raw payload that Discords accepts.   
+  
+Simple message for example:   
 ```
 {
   "content": "{{server}} started"
