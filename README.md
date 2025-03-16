@@ -153,9 +153,9 @@ compatible distributions, provided they meet the necessary requirements.
 The executable can also be run inside a Docker container for added flexibility.
 
 
-Run the download command:\
+Run the download command:  
 [Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).  
-(for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.12/install.sh)`
+(for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.12/install.sh)`  
 
 You should see this now:
 ```
@@ -169,16 +169,20 @@ You should see this now:
  * |  $$$$$$/| $$         | $$|  $$$$$$/|  $$$$$$/| $$ /$$$$$$$/
  *  \______/ |__/         |__/ \______/  \______/ |__/|_______/
 ```
-#### License
-Step by step install the agent. The license is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).
+Step by step install the agent.  
 
-Details provided by: _Philipp_
+#### License
+ The license is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).
+
+Pricing details provided by: _Philipp_
 
 _One-time purchase: €140 (includes 2 agents).  
 Subscription: €6 per month per agent.  
 Volume licensing: Custom pricing for 10+ agents or resellers.  
 No limits on the number of servers per agent.  
 Final pricing details will be available in the CFCloud panel upon release._
+
+#### Password
 
 Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 
