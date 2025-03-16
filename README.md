@@ -172,6 +172,15 @@ You should see this now:
 
 Step by step install the agent. The license is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).
 
+### Tools Architect Pricing
+Details provided by: _Philipp_
+
+_One-time purchase: €140 (includes 2 agents).  
+Subscription: €6 per month per agent.  
+Volume licensing: Custom pricing for 10+ agents or resellers.  
+No limits on the number of servers per agent.  
+Final pricing details will be available in the CFCloud panel upon release._
+
 Take note of the Agent installation path: `/opt/cftools/architect/agent/`
 
 `cd /opt/cftools/architect/agent/`
