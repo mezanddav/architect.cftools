@@ -230,3 +230,12 @@ Simple message for example:
 }
 ```
 [Discord Webhook Resource / JSON Params](https://discord.com/developers/docs/resources/webhook#execute-webhook-jsonform-params)
+
+Eample:  
+```
+{
+  "username": "Mod Updates",
+  "content": "Server Updated: {{server}} | Mod: {{mod}} | Time: {{date}}",
+  "avatar_url": ""
+}
+```
