@@ -169,10 +169,9 @@ You should see this now:
  * |  $$$$$$/| $$         | $$|  $$$$$$/|  $$$$$$/| $$ /$$$$$$$/
  *  \______/ |__/         |__/ \______/  \______/ |__/|_______/
 ```
-
+#### License
 Step by step install the agent. The license is on [Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).
 
-### Tools Architect Pricing
 Details provided by: _Philipp_
 
 _One-time purchase: €140 (includes 2 agents).  
