@@ -16,15 +16,15 @@ online to guide you through those steps.
 
 ## Debian first steps
 
-Your first command is to update Debian to the latest version:\
+Your first command is to update Debian to the latest version:  
 `sudo apt update && sudo apt upgrade -y`
 
-Install basic tools that might be required during the installation:\
-`sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`\
-`sudo apt install software-properties-common -y`\
+Install basic tools that might be required during the installation:  
+`sudo apt install -y build-essential curl wget git gnupg lsb-release ca-certificates`  
+`sudo apt install software-properties-common -y`  
 `sudo apt install mc -y`
 
-Ensure the universe, multiverse, and restricted repositories are enabled:\
+Ensure the universe, multiverse, and restricted repositories are enabled:  
 `sudo add-apt-repository contrib`\
 `sudo add-apt-repository non-free`\
 `sudo apt update`
@@ -78,6 +78,12 @@ The output should be a list of ports you just opened.
 Useful: `sudo ufw reload`
 
 `reboot` and let's install the agent.
+
+## (optional) Disable IPv6
+`sudo nano /etc/default/ufw`  
+
+Change the line `IPV6=yes` to `IPV6=no`, save the file,
+and then reload UFW using `sudo ufw reload`. 
 
 ## TCP/UDP cc-global.gameserver.cloud for port 666  
 Ensure dnsutils is installed:  
