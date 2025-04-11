@@ -161,7 +161,7 @@ The executable can also be run inside a Docker container for added flexibility.
 
 Run the download command:  
 [Grab the download link on Discord](https://discord.com/channels/373098389174484992/1312066884467953775/1316064473097699419).  
-(for me) `bash <(curl -s https://architect.cftools.com/releases/1.0.13/install.sh)`  
+(for me) `sudo bash <(curl -s https://architect.cftools.com/releases/1.0.15/install.sh)`  
 
 You should see this now:
 ```
