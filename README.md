@@ -260,3 +260,11 @@ Eample:
   "avatar_url": ""
 }
 ```
+
+# Console commands
+
+## Check mod details
+`{"action": "mod", "parameters": {"entity_id": 3452851479}}`  
+
+3452851479 -> Mod ID 
+
